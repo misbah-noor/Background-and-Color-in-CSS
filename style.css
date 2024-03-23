@@ -1,0 +1,79 @@
+/*External CSS*/
+/*universal selector*/
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/*background and color properties*/
+.navbar{
+    /*darkblue*/
+   background-color: darkblue; 
+    padding: 20px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li{
+    display: inline;
+}
+ .navbar ul li a{
+   padding: 25px;
+   /*Light color for text*/
+   color: lightcyan; 
+   text-decoration: none;
+ }
+
+ .navbar ul li a:hover{
+     /*blue on hover*/
+    background-color: blue; 
+ }
+
+ .main-container{
+   /*dark red*/
+  background-color: darkred;
+  /*light color for text*/
+  color: lightgoldenrodyellow; 
+  padding: 60px;
+ }
+
+ .background-image{
+    /*specify width and height*/
+    width: 600px;
+    height: 300px;
+    background-image: url(img/360_F_457937822_6guyVRMr4cCdCr36zPg7Er7WRaf0FbSn.jpg);
+    /*cover the entire div*/
+    background-size: cover; 
+    /*center the image*/
+    background-position: center;  
+}
+
+.vertical-box{
+  /*add width and height as needed*/
+  width: 250px;
+  height: 380px;
+  background-image: url(img/istockphoto-1488114900-170667a.webp);
+  /*add padding to your content*/
+  padding: 25px;
+  /*ensure the background remains fixed*/
+ background-attachment: fixed;
+  /*text color*/
+  color: white;
+  border: 3px solid black;
+}
+
+/*background shorthand property*/
+.vertical-box {
+  width: 250px;
+  height: 380px;
+  background:  url(img/istockphoto-1488114900-170667a.webp) no-repeat fixed center center/cover transparent;
+  padding: 25px;
+  color: white;
+}
+
+
